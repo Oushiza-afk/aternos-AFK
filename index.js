@@ -2,8 +2,8 @@ const mineflayer = require('mineflayer');
 
 function createBot() {
     const bot = mineflayer.createBot({
-        host: 'oushiz.aternos.me:64164', // Заміни на свою адресу сервера
-       // port: 64164,
+        host: 'oushiz.aternos.me', // Заміни на свою адресу сервера
+         port: 64164,
         username: 'AFK_Bot',
         version: '1.21.11'
     });
