@@ -5,7 +5,7 @@ function createBot() {
         host: 'oushiz.aternos.me', // Заміни на свою адресу сервера
         port: 64164,
         username: 'AFK_Bot',
-        version: 1.21.11
+        version: '1.21.11'
     });
 
     bot.on('spawn', () => {
