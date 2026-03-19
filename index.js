@@ -1,3 +1,8 @@
+const http = require('http');
+http.createServer((req, res) => {
+  res.write('Бот живий!');
+  res.end();
+}).listen(8080);
 const mineflayer = require('mineflayer');
 
 function createBot() {
